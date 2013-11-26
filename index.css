@@ -81,6 +81,10 @@
   margin-bottom: 5px;
 }
 
+.list-1-large li {
+  line-height: 27px;
+}
+
 /*
  * .list-2
  * List with a title and a list of links
