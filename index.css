@@ -1,0 +1,151 @@
+.list-inline {
+  zoom: 1;
+  list-style: none;
+}
+
+.list-inline:before,
+.list-inline:after {
+  content: "";
+  display: table;
+}
+
+.list-inline:after {
+  clear: both
+}
+
+.list-inline > li,
+.list-inline > .list__item {
+  float: left;
+}
+
+/*
+ * List with green arrows
+ */
+
+.list-1 {}
+
+.list-1 li {
+  background: url('images/icon-arrow-right.png') no-repeat 0 8px;
+  list-style: none;
+  margin-bottom: 5px;
+  padding-left: 18px;
+}
+
+@media (max-width: 800px){
+  .list-1 li {
+    background-position: 0 8px;
+  }
+}
+
+.list-1 li strong {
+  color: #333;
+}
+
+.list-1.is-extras li {
+  background-image: url('images/icon-arrow-right-extras.png');
+}
+
+.list-1.is-hospital li {
+  background-image: url('images/icon-arrow-right-hospital.png');
+}
+
+.list-1.with-hover li {
+  background-image: url('images/icon-arrow-right-grey.png');
+}
+
+.list-1.with-hover li:hover {
+  background-image: url('images/icon-arrow-right.png');
+}
+
+.list-1.list-1--white li {
+  background-image: url('images/icon-arrow-right-white.png');
+}
+
+.list-1.list-1--grey li {
+  background-image: url('images/icon-arrow-right-grey.png');
+}
+
+.list-1.list-1--middle li {
+  background-position: 0 50%;
+}
+
+.list-1 ul {
+  margin: 10px 0;
+}
+
+.list-1 ul  > li {
+  list-style: disc;
+  list-style-position: inside;
+  background: none;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
+/*
+ * .list-2
+ * List with a title and a list of links
+ */
+
+.list-2 li {
+  margin: 5px 0;
+  line-height: 15px;
+}
+.list-2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.list-2 a :hover {
+  text-decoration: underline;
+}
+
+/*
+ * .list-ticks
+ */
+
+.list-ticks {
+  margin: 0;
+}
+
+.list-ticks li {
+  list-style: none;
+  padding-left: 25px;
+  background-image: url('images/tick.png');
+  background-image: url('images/tick.svg'), none;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 16px 15px;
+  margin-bottom: 5px;
+}
+
+.list-ticks strong {
+  color: #333;
+}
+
+.list-ticks.list-ticks--white li {
+  background-image: url('images/tick-white.png');
+  background-image: url('images/tick-white.svg'), none;
+  background-position: 0 3px;
+}
+
+/*
+ * .list-ticks
+ */
+.list--tight li {
+  margin-bottom: 5px;
+}
+
+/*
+ * .list-inline-bullets
+ */
+
+.list-inline-bullets li {
+  display: inline-block;
+}
+
+.list-inline-bullets li:after {
+  content: "\2022";
+}
+
+.list-inline-bullets li:last-child:after {
+  display: none;
+}

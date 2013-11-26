@@ -1,0 +1,18 @@
+{
+  "name": "lists",
+  "version": "0.0.1",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/icon-arrow-right-extras.png",
+    "images/icon-arrow-right-grey.png",
+    "images/icon-arrow-right-hospital.png",
+    "images/icon-arrow-right-white.png",
+    "images/icon-arrow-right.png",
+    "images/tick-white.png",
+    "images/tick-white.svg",
+    "images/tick.png",
+    "images/tick.svg"
+  ]
+}
