@@ -37,8 +37,16 @@
   }
 }
 
-.list-1.list-1--tight li{
+/* icon positioning for tighter lists */
+.list-1--tight li{
   background-position: 0 4px;;
+}
+
+/* icon positioning for larger lists */
+.list-1--large li {
+  background-position: 0 9px;
+  font-size: 16px;
+  line-height: 27px;
 }
 
 .list-1 li strong {
@@ -160,4 +168,9 @@
 
 .list-large li {
   line-height: 27px;
+}
+
+/* optional - larger text for the larger line-height */
+.list-large__item {
+  font-size: 16px;
 }
