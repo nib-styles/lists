@@ -1,0 +1,9 @@
+{
+  "name": "@nib-styles/lists",
+  "version": "0.0.3",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/lists.git"
+  }
+}
